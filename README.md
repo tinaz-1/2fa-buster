@@ -6,7 +6,16 @@ It automatically stops when a valid code (HTTP 302) is detected and supports mul
 > ⚠️ **Warning:** Use only on systems you are authorized to test. Do NOT use against live accounts without permission.
 
 ---
+## 🧠 Note
 
+This tool is especially useful when testing applications for **business logic vulnerabilities**, 
+where 2FA mechanisms are improperly implemented and allow brute force attempts.
+
+It is commonly used in labs and real-world scenarios where:
+- No rate limiting is applied
+- No account lockout exists
+- 2FA codes can be guessed without restrictions
+  
 ## 📌 Features
 
 - Brute forces numeric MFA/2FA codes
